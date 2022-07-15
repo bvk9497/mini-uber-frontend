@@ -1,0 +1,47 @@
+.randomitem {
+  // width: 250px;
+  padding: 50px 0px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
+  gap: 20px;
+  border-radius: 10px;
+  -webkit-box-shadow: 2px 4px 10px 1px rgba(0, 0, 0, 0.5);
+  box-shadow: 2px 4px 10px 1px rgb(201, 201, 201, 0.5);
+
+  hr{
+    color: black;
+    width: 70%;
+  }
+  .detailsContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    .item {
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+
+      label {
+        width: 75px;
+        font-weight: bold;
+      }
+    }
+  }
+  .buttonContainer {
+    button {
+      background-color: lightcoral;
+      outline: none;
+      border: none;
+      color: white;
+      height: 2rem;
+      border-radius: 5px;
+      cursor: pointer;
+
+      &:hover {
+        background-color: lightsalmon;
+      }
+    }
+  }
+}

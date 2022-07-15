@@ -1,0 +1,29 @@
+.booked {
+  background-color: lightgreen;
+  color: white;
+  font-weight: bold;
+  font-size: 1rem;
+  padding: 10px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  -webkit-box-shadow: 2px 4px 10px 1px rgba(0, 0, 0, 0.5);
+  box-shadow: 2px 4px 10px 1px rgb(201, 201, 201, 0.5);
+
+  button {
+    margin: auto;
+    background-color: rgb(228, 11, 11);
+    outline: none;
+    border: none;
+    color: white;
+    height: 2rem;
+    width: 80px;
+    border-radius: 5px;
+    cursor: pointer;
+
+    &:hover {
+      background-color: rgb(247, 124, 76);
+    }
+  }
+}

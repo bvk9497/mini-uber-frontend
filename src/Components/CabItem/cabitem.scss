@@ -1,0 +1,50 @@
+.cabitem {
+  width: 200px;
+  height: 100px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 20px;
+  -webkit-box-shadow: 2px 4px 10px 1px rgba(0, 0, 0, 0.5);
+  box-shadow: 2px 4px 10px 1px rgb(201, 201, 201, 0.5);
+
+  .detailsContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 65%;
+
+    label {
+      font-weight: bold;
+      width: 50px;
+    }
+  }
+
+  .buttonContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    button {
+      outline: none;
+      border: none;
+      color: white;
+      height: 2rem;
+      border-radius: 5px;
+      cursor: pointer;
+
+      &.book {
+        background-color: lightgreen;
+      }
+      &.edit {
+        background-color: rgb(78, 206, 199);
+      }
+
+      &:hover {
+        background-color: lightsalmon;
+      }
+    }
+  }
+}

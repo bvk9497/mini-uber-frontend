@@ -1,0 +1,51 @@
+.cab-register-form {
+  padding-top: 100px;
+  padding-bottom: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 400px;
+  margin: auto;
+  align-items: center;
+  -webkit-box-shadow: 2px 4px 10px 1px rgba(0, 0, 0, 0.5);
+  box-shadow: 2px 4px 10px 1px rgb(201, 201, 201, 0.5);
+
+  .item {
+    width: 80%;
+    padding: 2px;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: space-between;
+
+    h4 {
+      width: 70px;
+    }
+
+    label {
+      font-weight: bold;
+    }
+    input {
+      outline: none;
+      border: none;
+      height: 1.5rem;
+      background-color: whitesmoke;
+    }
+
+    button {
+      margin: auto;
+      background-color: lightcoral;
+      outline: none;
+      border: none;
+      color: white;
+      height: 2rem;
+      width: 80px;
+      border-radius: 5px;
+      cursor: pointer;
+
+      &:hover {
+        background-color: lightsalmon;
+      }
+    }
+  }
+}
